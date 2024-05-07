@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+ 
+  <title>Document</title>
+
+
+
+  <style>
+	html,body	{margin:0;padding:0;height:100%;font-family:돋움,verdana;font-size:12px;}
+	ol, ul{list-style:none;}
+	#wrap	{width:100%;height:100%;}
+	#header,#footer	{clear:both;height:80px;line-height:50px;background:;}
+
+
+	#header	{position;relative;z-index:10;}
+	#container{clear:both;width:100%;height:100%;display:table}
+	#leftArea{background:;height:100%;display:table-cell;width:250px;}
+	#content{background:;height:100%;display:table-cell;}
+	#aside{height:100%;display:table-cell;width:293px;background:;}
+	
+	/*lnb*/
+	.lnb{position:relative;float:left;width:235px;z-index:10;}
+	.lnb h2{width:235px;height:45px;border-bottom:2px solid #8b8b8b;font-weight:bold;font-size:27px;color:#363636}
+	.lnb ul{padding:0}
+	.lnb li {display:block;width:235px;height:44px;font-size:15px;background: url(images/subKnowledge_men01_off.png) 0 0 no-repeat;border-bottom:2px solid #dedede;text-decoration:none;color:#116799; }
+	.lnb li a {display:block;padding:0 0 0 65px;font-weight:bold;height:43px;line-height:43px;}
+	.lnb li a:hover {display:block;background:#273981 url(images/subKnowledge_men01_over.png) 0 0 no-repeat;font-weight:bold;height:43px;border-bottom:1px solid #dedede;line-height:43px;color:#fff;text-decoration:none;}
+	.lnb li.on span a{background:#273981 url(images/subKnowledge_men01_over.png) 0 0 no-repeat;}
+	.lnb li.on a{color:#fff;}
+
+	.lnb li .sub_lnb{border:none;margin:8px 0 6px 0px;}
+	.lnb li .sub_lnb li{height:25px;font-size:12px;background:none;border-bottom:2px solid #ffffff;}
+	.lnb li .sub_lnb li a{display:block;background:none;color:#666666;}
+	.lnb li .sub_lnb li a:hover{color:#0c4da2;border-bottom:2px solid #ffffff;}
+	.lnb li .sub_lnb li.on a{color:#0c4da2;text-decoration:underline;}
+
+	/*lnb*/
+	.nametList{margin-top:1px;}
+	.nametList li{height:20px;box-sizing:border-box;padding-left:8px;background:url(../images/bul_myprojectInfo.gif) no-repeat 0 6px;}
+	.nametList li a{color:#000000;font-weight:bold;}
+
+
+	.info {background:#ffffff; display:hidden; padding:15px 15px 5px;}
+	.info .photo {width:96px; height:96px;}
+	.info .photo .photo_line {position:absolute; top:15px; left:15px;}
+	.info ul.data {margin-left:110px; position:absolute; top:20px;}
+	.info ul.data li {margin-top:0; padding:0px;}
+	.info ul.data li {color:#fff; font-size:20px; padding:5px 0 10px 0;}
+	.info ul.data li+li {font-size:12px; padding:0; line-height:1.4;}
+	.info ul.data li+li+li {color:#564a3e; font-size:11px;}
+	.info ul.data li+li+li+li {color:#6c6258;}
+	.info table {margin-top:15px; color:#fff;}
+	.info table th {border-top:2px solid #c9c0b8; font-size:11px; font-weight:normal; color:#ededed; line-height:2;}
+	.info table td {border-top:1px solid #c9c0b8; font-size:45px; text-align:center; line-height:1.5;}
+	.info table td img {padding-top:11px;}
+
+	.media {overflow:hidden; padding:30px !important;}
+	.media dl {width:100%; float:left;}
+	.media dt img {margin-top:5px; margin-bottom:5px; padding-left:2px;width:750px;}
+	.media dl:nth-child(even) dt img {margin-top:10px; margin-bottom:5px; padding-left:0px;}
+	.media dd {padding-left:5px; color:#818b92; font-size:12px;}
+	.media dd a {color:#818b92;}
+
+	.media .s_btn {position:absolute; right:30px; padding-bottom:52px; z-index:10;}
+  </style>
+
+ </head>
+ <body>
+
+	<div id="wrap" >
+		<div id="header" >
+			 <ul class="nametList">
+				<li>Lee Hea Jung</li>
+				<li>+ DOB : August 1,  1975</li>
+				<li>+ Contact :010-6676-3922</li>
+				<li>+ E-mail : <u>leehj3922@hanmail.net</u></li>
+				<li>+ 개인적으로 중요한 정보 이므로 확인 후 즉시 삭제 부탁드립니다. </li>
+			</ul>
+		</div>
+		<div id="container" >
+			<div id="content" >
+
+			<li class="media">	
+					<h1><span><strong>삼성생명 자산운용 포탈 </span></h1>
+					<p class="s_btn">
+					   2020.09 ~ 2020.11 
+					</p>
+
+					<dl>
+						<dt><img src="sam05.png"></dt>
+						<dd></dd>
+					</dl>
+					
+					
+			</li>
+			
+			<li class="media">	
+				<h1><span><strong>LG 화학 </span></h1>
+				<p class="s_btn">
+					2016.05-2019.06
+				</p>
+				<dl>
+					<dt><img src="lg01.png"></dt>
+					<dd></dd>
+				</dl>
+				
+
+				<dl>
+					<dt><img src="lg02.png"></dt>
+					<dd></dd>
+				</dl>
+				
+				
+			</li>
+
+
+			<li class="media">	
+					<h1><span><strong>삼성엔지니어링 </span></h1>
+					<p class="s_btn">
+					   2014.11 ~ 2015.01 
+					</p>
+
+					<dl>
+						<dt><img src="sam02.png"></dt>
+						<dd></dd>
+					</dl>
+					
+					
+				</li>
+				<li class="media">	
+					<h1><span><strong>현대카드 Global profile 화상 조직도 통합사업 </span></h1>
+					<p class="s_btn">
+					   2013.9~ 2014.1 
+					</p>
+
+					<dl>
+						<dt><img src="hy01.jpg"></dt>
+						
+					</dl>
+					<dl>
+						<dt><img src="hy02.jpg"></dt>
+						
+					</dl>
+					<dl>
+						<dt><img src="hy03.jpg"></dt>
+						<dd>현대카드/ 현대캐피탈/ 현대 라이프 각 법인 별   인사기록 profile 시스템 구축</dd>
+					</dl>
+					
+				</li>
+
+				<li class="media">	
+					<h1><span><strong>삼성전자  프로젝트 </span></h1>
+					<p class="s_btn">
+					   2008.12 ~ 2012.12 
+					</p>
+
+					<dl>
+						<dt><img src="sam011.jpg"></dt>
+						<dd></dd>
+					</dl>
+					<dl>
+						<dt><img src="sam01.jpg"></dt>
+						<dd></dd>
+					</dl>
+					<dl>
+						<dt><img src="wall01.jpg"></dt>
+						<dd></dd>
+					</dl>
+					
+				</li>
+
+				
+
+				<li class="media">	
+					<h1><span><strong>CDNetworks 고객 서비스  품질 보고</span></h1>
+					<p class="s_btn">
+					   2008. 5 ~ 2008. 07 
+					</p>
+
+					<dl>
+						<dt><img src="cd.jpg"></dt>
+						<dd>CDN서비스를 이용하는 고객에 대한 통계 보고서 제공 서비스</dd>
+					</dl>
+					
+				</li>
+
+
+
+
+			</div>
+			
+		</div>
+		
+	</div>
+	
+ </body>
+</html>
